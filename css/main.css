@@ -1,0 +1,70 @@
+div.container {
+	padding-top: 30px;
+}
+div.significado > p, div.dos > input, div.tres > button {
+	margin: 0 auto;
+}
+div.significado > p {
+	font-size: 2.9em;
+	margin-bottom: 30px;
+}
+div.dos > input {
+	text-align: center;
+	margin-bottom: 30px;
+	width: 250px;
+	font-size: 1.5em;
+	border-style: none;
+	border: 2px solid rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.07);
+	transition: border 0.5s, border-radius 1s;
+}
+div.dos > input:focus {
+	outline: 0;
+	border: 2px solid rgba(0,0,0,0.2);
+	border-radius: 15px 30px;
+}
+div.res {
+	position: relative;
+}
+div.rojo {
+	color: red;
+	position: absolute;
+	left: 300px;
+	bottom:  80px;
+	font-size: 2em;
+}
+div.verde {
+	color: green;
+	position: absolute;
+	left: 950px;
+	bottom:  80px;
+	font-size: 2em;
+}
+div.print {
+	margin-bottom: 30px;
+}
+div.puntaje {
+	position: relative;
+}
+div.puntaje > div.row {	
+	width: 50%;
+	float: left;
+}
+div.puntaje > div.row > div {
+	margin: 0 auto;
+	font-size: 20px;
+}
+div.correctas {
+	padding-left: 100px;
+}
+div.audio {
+	position: absolute;
+	left: 830px;
+	bottom: 5px;
+}
+i {
+	cursor: pointer;
+}
+button.imprimir {
+	display: none;
+}
